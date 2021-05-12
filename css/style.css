@@ -8,7 +8,7 @@ body{
     left: 0;
     width: 100%;
     position: fixed;
-    z-index: 20;
+    z-index: 50;
     
 }
 .logo{
@@ -70,10 +70,141 @@ body{
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
-    z-index: 10;
+    z-index: 49;
+
 
 }
 .container2{
-
+    border-style: solid;
+    border-width: 1px;
+    border-color: #36413e;
+    margin: 16px;
 }
 
+.title1{
+    color: #19381F;
+    font-family: 'Markazi Text', serif;
+    font-size: 40px;
+    max-width: 502px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.line{
+    position: absolute;
+    background-color: #36413e;
+    width: 476px;
+    height: 1px;
+    left: 120px;
+    
+    
+    
+}
+.gray{
+    color: #7F7F7F;
+    max-width: 450px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+.line2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.line3{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #7F7F7F;
+}
+/* section2 */
+.section2{
+    background-color: #fae8eb;
+    
+}
+.box2{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    height: 2000px;
+    padding-top: 87px;
+}
+.women{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: #19381F;
+}
+.features{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: #19381F;
+}
+.features-box{
+    background-color: #fff;
+    max-width: 407px;
+    width: 100%;
+    margin-left: 390px;
+}
+.picture{
+    margin-top: 131px;
+    position: relative;
+    z-index: 48;
+    background-image: url(../images/anna.png);
+    height: 493px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 493px;
+    width: 100%;
+
+}
+.border2{
+    border-style: solid;
+    border-color: #306b34;
+    width: 493px;
+    height: 493px;
+    position: absolute;
+    border-width: 3px;
+    left: 19px;
+    top: 21.5px;
+}
+.wraper1{
+    display: flex;
+}
+.miller{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+.anna-miller{
+    width: 350px;
+    background-color: #f9cfbc;
+}
+.anmi{
+    font-size: 20px;
+    color: #19381f;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Vollkorn SC', serif;
+}
+.yoga{
+    position: absolute;
+    top: 170px;
+    left: 525px;
+}
+.teacher{
+    width: 306px;
+    font-size: 20px;
+    font-style: italic;
+    color: #7f7f7f;
+    width: 300px;
+    
+}
