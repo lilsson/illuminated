@@ -177,11 +177,14 @@ body{
 }
 .wraper1{
     display: flex;
+    
+    
 }
 .miller{
     position: absolute;
     top: 100px;
     left: 400px;
+
 }
 .anna-miller{
     width: 350px;
@@ -190,21 +193,130 @@ body{
 .anmi{
     font-size: 20px;
     color: #19381f;
-    text-align: center;
     padding: 20px;
     text-align: center;
     font-family: 'Vollkorn SC', serif;
 }
+.linebox123{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .yoga{
+
     position: absolute;
     top: 170px;
     left: 525px;
+   
 }
 .teacher{
-    width: 306px;
+   
     font-size: 20px;
     font-style: italic;
     color: #7f7f7f;
     width: 300px;
+    margin-top: 31px;
     
+    
+}
+.story{
+    margin-top: 30px;
+    color: #7F7F7F;
+    text-decoration: underline;
+    font-size: 14px;
+    
+}
+.stick01{
+    position: relative;
+}
+.stick{
+    background-image: url(../images/stick.svg);
+    height: 277px;
+    max-width: 224px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 384.5px;
+    top: -5px;
+    position: absolute;
+}
+.picture02{
+    background-image: url(../images/whm.svg);
+    height: 502px;
+    max-width: 502px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    right: 130px;
+
+}
+.box3{
+    max-width: 902px;
+    width: 100%;
+    margin-top: 220px;
+    display: flex;
+    
+    
+    
+}
+.kayla{
+    background-color: #F9CFBC;
+    max-width: 600px;
+    width: 100%;
+    position: absolute;
+    bottom: 350px;
+    right: 323px;   
+    z-index: 45;
+
+    
+}
+.reynolds{
+    font-size: 30px;
+    color: #19381f;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Vollkorn SC', serif;
+
+    
+    
+}
+.line4{
+    margin-top: 96px;
+    text-align: start;
+    max-width: 482px;
+    width: 100%;
+    
+
+    
+}
+.fashion{
+    max-width: 306px;
+    width: 100%;
+    font-size: 20px;
+    font-style: italic;
+    color: #7f7f7f;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    
+    
+}
+.story2{
+    
+    color: #7F7F7F;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.border02{
+    border-style: solid;
+    border-color: #306b34;
+    width: 450px;
+    height: 493px;
+    position: absolute;
+    border-width: 3px;
+    left: -19px;
+    top: 21.5px;
+    z-index: 44;
 }
