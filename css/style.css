@@ -131,7 +131,6 @@ body{
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    height: 2000px;
     padding-top: 87px;
 }
 .women{
@@ -251,6 +250,7 @@ body{
     background-position: right;
     position: relative;
     right: 130px;
+    
 
 }
 .box3{
@@ -319,4 +319,85 @@ body{
     left: -19px;
     top: 21.5px;
     z-index: 44;
+}
+.stick01-2{
+    position: relative;
+}
+.stick-2{
+    background-image: url(../images/stick2.svg);
+    height: 248px;
+    max-width: 224px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 200px;
+    z-index: 41;
+
+}
+.picture-3{
+    background-image: url(../images/whm2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 502px;
+    width: 100%;
+    height: 502px;
+    position: relative;
+    z-index: 43;
+    
+}
+.fox{
+    margin-top: 214px;
+    padding-bottom: 186px;
+    
+}
+.fox2{
+    border-style: solid;
+    border-color: #306b34;
+    max-width: 502px;
+    width: 100%;
+    height: 502px;
+    position: absolute;
+    border-width: 3px;
+    left: 19px;
+    top: 21.5px;
+    z-index: 38;
+}
+.cindy{
+    background-color: #F9CFBC;
+    max-width: 482px;
+    width: 100%;
+    
+    position: absolute;
+    left: 350px;
+    top: 130px;
+    z-index: 39;
+
+}
+.chung{
+    font-size: 30px;
+    color: #19381f;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Vollkorn SC', serif;
+}
+.who{
+    max-width: 306px;
+    width: 100%;
+    font-size: 20px;
+    font-style: italic;
+    color: #7f7f7f;
+    position: absolute;
+    left: 540px;
+    top: 280px;
+}
+.read{
+    color: #7F7F7F;
+    text-decoration: underline;
+    font-size: 14px;
+    position: absolute;
+    max-width: 107px;
+    width: 100%;
+    left: 540px;
+    top: 400px;
 }
