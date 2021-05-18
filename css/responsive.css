@@ -16,9 +16,15 @@
 
 @media(max-width: 430px){
     .features-box{
-        width: 300px;
+        width: 200px;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 10px;
+    }
+    .blog01{
+        width: 180px;
+        
+        
+
     }
 }
 
@@ -38,6 +44,9 @@
      max-width: 200px;
      width: 100%;
 }
+.blog01{
+    margin-left: 100px;
+}
 }
 @media (max-width:540px){
     .miller{
@@ -53,5 +62,10 @@
 @media (max-width:340px){
     .teacher{
         width: 100%;
+    }
+}
+@media (max-width:1041px){
+    .section0303{
+        display: none;
     }
 }
