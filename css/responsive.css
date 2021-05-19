@@ -69,3 +69,36 @@
         display: none;
     }
 }
+@media (max-width: 1000px) {
+    .next {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+        
+    }
+  }
+
+  @media (max-width: 1039px){
+      .print{
+          max-width: 1190px;
+          width: 100%;
+      }
+      .ectangle{
+          width: 800px;
+          
+      }
+  }
+
+  @media (max-width: 900px){
+    .ectangle{
+        width: 680px;
+        
+    }
+  }
+  @media (max-width: 790px){
+    .ectangle{
+        width: 200px;
+        
+    }
+  }
