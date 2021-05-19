@@ -607,8 +607,11 @@ body{
     color: black;
     font-size: 45px;
 }
+.section0303{
+    margin-bottom: 100px;
+}
 /* section04 */
-.section04{
+/* .section04{
     
     background-color: #FAE8EB;
     height: 2000px;
@@ -619,15 +622,6 @@ body{
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    
-    
+} */
 
-}
-.grimg{
-    background-image: url(../images/grimg.svg);
-    height: 487px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
 
