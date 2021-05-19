@@ -14,15 +14,28 @@ body{
 .logo{
     color: black;
     font-size: 70px;
+    transition: all 1s ease-in-out;
+    
+}
+.logo:hover{
+    transition: all 1s ease-in-out;
+    font-size: 90px;
+    
     
 }
 .nav-li{
     color: #7F7F7F;
     font-size: 18px;
     margin-right: 74px;
-    
-    
+    transition: all 1s ease-in-out;  
 }
+.nav-li:hover{
+    
+    font-size: 22px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -34,19 +47,44 @@ body{
     
 }
 
+
 .fa-search{
     color: black;
     margin-right: 25px;
+    transition: all 1s ease-in-out;
+}
+.fa-search:hover{
+    color: peru;
+    font-size: 18px;
 }
 .fa-instagram,
 .fa-twitter,
 .fa-facebook-f {
     color: black;
     margin-right: 5px;
+    transition: all 1s ease-in-out;
 }
+.fa-instagram:hover{
+    color: peru;
+    font-size: 18px;
+}
+.fa-twitter:hover{
+    color: peru;
+    font-size: 18px;
+}
+.fa-facebook-f:hover{
+    color: peru;
+    font-size: 18px;
+}
+
 .fa-shopping-bag{
     color: black;
     margin-left: 25px;
+    transition: all 1s ease-in-out;
+}
+.fa-shopping-bag:hover{
+    color: peru;
+    font-size: 18px;
 }
 
 /* section1 */
@@ -504,6 +542,12 @@ body{
     color: #19381f;
     font-size: 40px;
     text-decoration: underline;
+    transition: all 1s ease-in-out;
+}
+.avel:hover{
+    color: black;
+    font-size: 45px;
+    
 }
 .auty01{
     max-width: 270px;
@@ -527,7 +571,13 @@ body{
     color: #19381f;
     font-size: 40px;
     text-decoration: underline;
+    transition: all 1s ease-in-out;
 }
+.auty03:hover{
+    color: black;
+    font-size: 45px;
+}
+
 .eer01{
     max-width: 270px;
     width: 100%;
@@ -546,8 +596,38 @@ body{
     padding-top: 25px;
     padding-bottom: 37px;
 }
+
 .eer03{
     color: #19381f;
     font-size: 40px;
     text-decoration: underline;
+    transition: all 1s ease-in-out;
 }
+.eer03:hover{
+    color: black;
+    font-size: 45px;
+}
+/* section04 */
+.section04{
+    
+    background-color: #FAE8EB;
+    height: 2000px;
+
+}
+.pinkround{
+    
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+
+}
+.grimg{
+    background-image: url(../images/grimg.svg);
+    height: 487px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
