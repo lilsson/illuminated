@@ -614,13 +614,14 @@ body{
 /* section04 */
 .section04{
     background-color: #306B34;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 .latest{
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
     margin-top: 650px;
+    margin-bottom: 100px;
     
 }
 .for{
@@ -695,9 +696,9 @@ body{
        height: 53px;
        background-size: cover;
        background-repeat: no-repeat;
-       max-width: 1190px;
+       max-width: 1010px;
        width: 100%;
-       left: 73px;
+       
        top: 370px;
        position: absolute;
        z-index: 35;
@@ -761,3 +762,33 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
    }
+
+   .recgle{
+       background-image: url(../images/recgle.png);
+       height: 51px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       max-width: 1010px;
+       width: 100%;
+       position: absolute;
+       z-index: 30;
+       
+   }
+
+   .strip{
+       background-image: url(../images/strip01.png);
+       height: 51px;
+       width: 100%;
+       background-size: cover;
+       background-repeat: no-repeat;
+       position: relative;
+       z-index: 29;
+       bottom: -20px;
+   }
+
+ 
+  
+/*               slider             */
+
+
+   

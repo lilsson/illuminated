@@ -88,6 +88,10 @@
           width: 800px;
           
       }
+
+      .recgle{
+          width: 800px;
+      }
   }
 
   @media (max-width: 900px){
@@ -95,10 +99,16 @@
         width: 680px;
         
     }
+    .recgle{
+        width: 680px;
+    }
   }
   @media (max-width: 790px){
     .ectangle{
         width: 200px;
         
+    }
+    .recgle{
+        width: 200px;
     }
   }
