@@ -807,5 +807,148 @@ body{
 }
 body {
 	
-	padding:30px;
+	/* padding:30px; */
+}
+
+/* shop section2 */
+
+.all{
+    background-color: #FAE8EB;
+    height: 710px;
+}
+
+.pinkwraper{
+    
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    
+
+}
+
+.newest{
+    color: #36413E;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.main{
+    color: #36413E;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+.whitebox{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+   
+
+}
+
+
+
+
+.facial01{
+    color: #7F7F7F;
+    font: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    /* z-index: 2; */
+
+}
+.five{
+    color: black;
+    text-align: center;
+}
+
+.svg02{
+    max-width: 250px;
+    width: 100%;
+    z-index: 2;
+}
+
+.whitebok{
+    background-image: url(../images/whitebok.png);
+    height: 250px;
+    max-width: 250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.clothing{
+    background-image: url(../images/clothing.png);
+    height: 250px;
+    max-width: 250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home{
+    background-image: url(../images/home04.svg);
+    height: 250px;
+    max-width: 250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    
+}
+
+.clothings02{
+    background-image: url(../images/clothings.svg);
+    height: 250px;
+    max-width: 250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 27;
+   
+    
+}
+
+
+.line14{
+    background-image: url(../images/path01.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 432px;
+    width: 100%;
+    height: 517px;
+    position: absolute;
+    left: 830px;
+    z-index: 1;
+}
+
+.line15{
+    background-image: url(../images/path02.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 432px;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 770px;
+    left: 80px;
+    z-index: 1;
+}
+
+.may05{
+    max-width: 218px;
+    width: 100%;
+    color: #7F7F7F;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.svg05{
+    max-width: 250px;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
