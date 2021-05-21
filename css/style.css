@@ -789,23 +789,7 @@ body{
 
  
   
-/*               slider             */
 
-.slider {
-    display: flex;
-    margin-bottom: 20px;
-}
-.slider .slider_item {
-    width: 350px;
-    height: 250px;
-    margin:30px;
-}
-.slider .slider_item img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-}
 
 
 /* shop section2 */
