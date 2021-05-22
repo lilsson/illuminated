@@ -206,7 +206,19 @@
         display: block;
         
     }
-  
+    .contact-white-box{
+        max-width: 200px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .contacth3{
+        margin-left: 20px;
+    }
+    .contact-greenstick10{
+        max-width: 300px;
+        width: 100%;
+        margin-left: -500px;
+    }
   }
   
 
