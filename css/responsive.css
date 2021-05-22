@@ -50,6 +50,15 @@
         display: none;
     }
     
+    .backgroundaboutgreen {
+        max-width: 200px;
+        width: 100%;
+        
+    }
+    .bigboxabout{
+        max-width: 350px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 875px){
@@ -166,8 +175,14 @@
     .reynolds{
         font-size: 20px;
     }
-    
-    
+    .unsplash {
+        max-width: 319px;
+        width: 100%;
+    }
+    .aboutborder02{
+        max-width: 319px;
+        width: 100%;
+    }
 }
 @media (max-width:340px){
     .teacher{
@@ -176,6 +191,9 @@
 }
 @media (max-width:1041px){
     .section0303{
+        display: none;
+    }
+    .all{
         display: none;
     }
     
@@ -214,10 +232,42 @@
         
     }
     .on{
-        max-width: 300px;
+        max-width: 600px;
+        width: 100%;
+    }
+    .aboutat {
+        margin-left: -545px;
+  }
+  .aboutmission{
+     margin-left: -397px;
+     margin-top: -98px;
+     max-width: 150px;
+     width: 100%;
+     padding-top: 100px;
+  }
+  .unsplash {
+      margin-left: 0;
+  }
+  .aboutborder02 {
+    left: 0;
+    top: 0;
+  }
+  .aboutgreenstick {
+      display: none;
+  }
+  }
+
+  @media (max-width: 888px){
+    .about-section-title{
+        margin-left: 0;
+    }
+    .aboutboxtitle{
+        margin-left: 50px;
+        max-width: 150px;
         width: 100%;
     }
   }
+
 
   @media (max-width: 900px){
     .ectangle{
