@@ -289,6 +289,7 @@ body{
     background-position: right;
     position: relative;
     right: 130px;
+    z-index: 4;
     
 
 }
@@ -339,6 +340,8 @@ body{
     color: #7f7f7f;
     margin-top: 100px;
     margin-bottom: 30px;
+    position: relative;
+    z-index: 6;
     
     
 }
@@ -347,6 +350,8 @@ body{
     color: #7F7F7F;
     text-decoration: underline;
     font-size: 14px;
+    position: relative;
+    z-index: 6;
 }
 .border02{
     border-style: solid;
