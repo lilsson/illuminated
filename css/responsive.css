@@ -2,6 +2,7 @@
     .line{
         display: none;
     }
+   
 }
 @media (max-width:820px){
     .features-box{
@@ -12,7 +13,15 @@
     .features-box{
         margin-left: 0px;
     }
-   
+    .container01{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .inut{
+        margin-bottom: 20px;
+
+    }
 }
 
 @media(max-width: 430px){
@@ -31,16 +40,11 @@
 
 
 @media (max-width: 830px){
-    .border2{
-        left: 0;
-        top: 0;
-    }
+    
     .stick{
         display: none;
     }
-    .box3{
-        display: none;
-    }
+   
    
     .stick-2{
         display: none;
@@ -49,6 +53,7 @@
 }
 
 @media (max-width: 875px){
+    
     .who{
         position: unset; 
         padding-left: 15px;
@@ -69,8 +74,7 @@
         left: 0;
         top: 0;
     }
-}
-@media (max-width:830px){
+
     .yoga{
         position: unset; 
         padding-left: 15px;
@@ -86,7 +90,49 @@
 .blog01{
     margin-left: 100px;
 }
+.border2{
+    left: 0;
+    top: 0;
 }
+.picture02 {
+    
+    margin-left: -274px;
+    margin-top: -150px;
+    margin-bottom: 250px;
+    }
+    .border02{
+        left: 0;
+        top: 0;
+    }
+    .kayla {
+        
+        max-width: 200px;
+        width: 100%;
+        position: absolute;
+        top: 90px;
+        left: 350px;
+        z-index: 45;
+    }
+    .line4 {
+        
+        margin-left: 15px;
+        margin-top: -200px;
+    }
+    .fashion,
+    .story2{
+        color: black;
+    }
+    .teacher,
+    .story{
+        color: black;
+    }
+    .who,
+    .read{
+        color: black;
+    }
+}
+
+
 @media (max-width:577px){
     .miller{
         position: unset;
@@ -109,7 +155,16 @@
         max-width: 493px;
         width: 100%;
     }
-
+    .kayla{
+        position: unset;
+        padding-top: 250px;
+        max-width: 130px;
+        width: 100%;
+    }
+    .reynolds{
+        font-size: 20px;
+    }
+    
 }
 @media (max-width:340px){
     .teacher{
@@ -120,6 +175,7 @@
     .section0303{
         display: none;
     }
+    
 }
 @media (max-width: 1000px) {
     .next {
@@ -129,9 +185,11 @@
         display: block;
         
     }
+  
   }
+  
 
-  @media (max-width: 1039px){
+  @media (max-width: 1040px){
       .print{
           max-width: 1190px;
           width: 100%;
@@ -144,6 +202,14 @@
       .recgle{
           width: 800px;
       }
+      .latest{
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        
+    }
   }
 
   @media (max-width: 900px){
@@ -154,6 +220,7 @@
     .recgle{
         width: 680px;
     }
+    
   }
   @media (max-width: 790px){
     .ectangle{
@@ -163,7 +230,16 @@
     .recgle{
         width: 200px;
     }
-    
+    .nav-ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
   }
 
   @media (max-width: 460px){
@@ -174,4 +250,8 @@
     .picture-3{
         background-position: center;
     }
+    .latest{
+        
+    }
+    
   }

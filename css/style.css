@@ -284,9 +284,11 @@ body{
     height: 502px;
     max-width: 502px;
     width: 100%;
+    left: 275px;
+    top: 50px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+  
     position: relative;
     right: 130px;
     z-index: 4;
@@ -296,8 +298,9 @@ body{
 .box3{
     max-width: 902px;
     width: 100%;
+    margin: 0 auto;
     margin-top: 220px;
-    display: flex;
+    
     
     
     
@@ -307,7 +310,7 @@ body{
     max-width: 600px;
     width: 100%;
     position: absolute;
-    bottom: 350px;
+    top: 60px;
     right: 323px;   
     z-index: 45;
 
@@ -324,8 +327,8 @@ body{
     
 }
 .line4{
-    margin-top: 96px;
-    text-align: start;
+    
+    margin-left: -45px;
     max-width: 482px;
     width: 100%;
     
@@ -338,15 +341,16 @@ body{
     font-size: 20px;
     font-style: italic;
     color: #7f7f7f;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    top: -150px;
+    
+    bottom: 30px;
     position: relative;
     z-index: 6;
     
     
 }
 .story2{
-    
+    top: -100px;
     color: #7F7F7F;
     text-decoration: underline;
     font-size: 14px;
@@ -356,8 +360,8 @@ body{
 .border02{
     border-style: solid;
     border-color: #306b34;
-    width: 450px;
-    height: 493px;
+    width: 502px;
+    height: 502px;
     position: absolute;
     border-width: 3px;
     left: -19px;
@@ -375,6 +379,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
+    top: -35px;
     left: 200px;
     z-index: 41;
 
