@@ -360,7 +360,8 @@ body{
 .border02{
     border-style: solid;
     border-color: #306b34;
-    width: 502px;
+    max-width: 502px;
+    width: 100%;
     height: 502px;
     position: absolute;
     border-width: 3px;

@@ -73,6 +73,7 @@
     .fox2{
         left: 0;
         top: 0;
+        
     }
 
     .yoga{
@@ -116,7 +117,8 @@
     .line4 {
         
         margin-left: 15px;
-        margin-top: -200px;
+        margin-top: -350px;
+        
     }
     .fashion,
     .story2{
@@ -164,6 +166,7 @@
     .reynolds{
         font-size: 20px;
     }
+    
     
 }
 @media (max-width:340px){
@@ -250,8 +253,12 @@
     .picture-3{
         background-position: center;
     }
-    .latest{
-        
-    }
     
+    
+  }
+  @media (max-width: 560px){
+      .box3{
+         display: none;
+      }
+      
   }
