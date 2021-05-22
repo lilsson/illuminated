@@ -700,8 +700,8 @@ body{
        max-width: 1010px;
        width: 100%;
        
-       top: 1000px;
-       position: absolute;
+       /* top: 1000px; */
+       position: relative;
        z-index: 35;
    }
 
