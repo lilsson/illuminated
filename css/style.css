@@ -699,10 +699,9 @@ body{
        background-repeat: no-repeat;
        max-width: 1010px;
        width: 100%;
-       
-       top: 370px;
        position: absolute;
        z-index: 35;
+       top: 370px;
    }
 
    .travel0101{
