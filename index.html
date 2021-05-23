@@ -15,7 +15,7 @@
     <meta property="og:image"              content=" " />
    
     <title>illuminated</title>
-     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
     <header class="bg-header">
         <div class="navigation">
             <a class="logo" href="index.html">illuminated</a> 
-            <nav class="next ">
+            <nav class="next">
               <ul class="nav-ul">
                   <li> <a class="nav-li" href="blog.html"> BLOG </a> </li>
                   <li> <a class="nav-li" href="shop.html"> SHOP </a> </li>
@@ -46,7 +46,22 @@
                     </li>
                 </ul>
             </nav>
-            <div class="burger-icon" >
+        </div>
+       
+        <!-- burger icon -->
+        <div class="wrapper-burger">
+            <ul id="menu" class="menu-ul">
+                <li><a class="nav-bur" href="blog.html">Blog</a></li>
+                <li><a class="nav-bur" href="shop.html">Shop</a></li>
+                <li><a class="nav-bur" href="about.html">About</a></li>
+                <li><a class="nav-bur" href="contact.html">Contact</a></li>
+            </ul>
+            <ul id="socicon" class="social-icons">
+                <li><a href="#" class="burger"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" class="burger"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="burger"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <div id="burger-menu" class="burger-icon">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -156,6 +171,11 @@
                 </div>
                 <div class="category">
                     <img src="images/category.svg" alt="category">
+                    <div class="beautybox">
+                        <div class="borderborder">
+                            <a href="picture.html"> <h3 class="avel">PICTURES</h3> </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="an01">
@@ -202,5 +222,7 @@
                 </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="css/script.js"></script>
 </body>
 </html>

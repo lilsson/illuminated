@@ -199,9 +199,7 @@
     
 }
 @media (max-width: 1000px) {
-    .next {
-        display: none;
-    }
+    
     .burger-icon {
         display: block;
         
@@ -337,6 +335,11 @@
        margin-top: 50px;
    }
 }
+@media (max-width: 450px){
+    .logo{
+        font-size: 45px;
+}
+}
 @media (max-width: 475px){
     .blog01{
     max-width: 130px;
@@ -345,3 +348,49 @@
 
     }
 }
+
+/*          burger-icon            */
+
+@media (max-width: 1000px){
+    .next{
+        display: none;
+    }
+    .wrapper, 
+    .menu,
+    .socicon{
+      display: block;
+      text-align: center;
+    }   
+    .nav-bur{
+      display: block;
+    }  
+    .social-icons{
+      display: flex;
+      justify-content: center; 
+    } 
+    .logo{
+      text-align: left;
+    }
+    .burger-icon{
+      color: black;
+      display: block;
+      font-size: 30px;
+      position: absolute;
+      top: 40px;
+      right: 30px;
+      cursor:pointer;
+    }
+    .menu-ul,
+    .social-icons{
+      display: none;
+    }   
+    .menu-ul.open-menu{
+      display: block;
+    } 
+    .social-icons.open-socicon{
+      display: flex;
+    } 
+    .wrapper-burger{
+        display: block;
+    }
+  }
