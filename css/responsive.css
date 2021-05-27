@@ -14,8 +14,13 @@
         margin-left: 0px;
     }
     .container01{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-left: 20px;
     }
     .inut{
@@ -298,13 +303,23 @@
         width: 200px;
     }
     .nav-ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-left: 15px;
     }
     .social{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-left: 0px;
     }
   }
@@ -365,7 +380,11 @@
       display: block;
     }  
     .social-icons{
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center; 
     } 
     .logo{
@@ -388,6 +407,8 @@
       display: block;
     } 
     .social-icons.open-socicon{
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
     } 
     .wrapper-burger{
